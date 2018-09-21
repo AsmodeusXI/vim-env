@@ -9,6 +9,7 @@ set number
 set numberwidth=3
 set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:<
 set list
+set history=50
 
 syntax enable
 filetype plugin indent on

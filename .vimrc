@@ -4,6 +4,7 @@ autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:stdin") | NERDTree | endif
 
 map <C-n> :NERDTreeToggle<CR>
+let NERDTreeShowHidden=1
 
 set number
 set numberwidth=3
